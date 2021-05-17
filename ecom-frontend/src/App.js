@@ -21,7 +21,6 @@ function App() {
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo } = userSignin;
   const dispatch = useDispatch();
-  //
   const signoutHandler = () => {
     dispatch(signout());
   };
