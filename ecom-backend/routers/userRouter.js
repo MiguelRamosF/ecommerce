@@ -7,7 +7,7 @@ import { generateToken, isAuth } from '../utils.js';
 
 const userRouter = express.Router();
 
-userRouter.get(
+userRouter.post(
   '/seed',
   expressAsyncHandler(async (req, res) => {
     // await User.remove({});
